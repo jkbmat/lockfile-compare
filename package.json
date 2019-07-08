@@ -1,0 +1,19 @@
+{
+  "name": "lockfile-compare",
+  "version": "1.0.0",
+  "description": "Compares two lockfiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start-without-build": "node ./build/index.js",
+    "start": "npm run build && npm run start-without-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "12.0.12",
+    "compare-versions": "3.5.0",
+    "typescript": "3.5.2"
+  }
+}
